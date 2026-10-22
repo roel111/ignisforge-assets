@@ -1,0 +1,11 @@
+{
+  "name": "ignisforge-assets",
+  "owner": { "name": "Roel" },
+  "plugins": [
+    {
+      "name": "werkbank",
+      "source": "./plugins/werkbank",
+      "description": "Zes mods: tool-teller, bestandsboom, diff-paneel, veiligheidsbewaker, agent-tijdlijn en statusbalk."
+    }
+  ]
+}

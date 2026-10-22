@@ -1,0 +1,48 @@
+{
+  "name": "werkbank",
+  "version": "0.1.0",
+  "description": "Zes mods in één plugin: tool-teller, bestandsboom, diff-paneel, veiligheidsbewaker, agent-tijdlijn en statusbalk; elk apart aan en uit te zetten.",
+  "author": {
+    "name": "Roel"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "teller": {
+      "type": "boolean",
+      "title": "Tool-teller",
+      "description": "Aantal tool calls naast de spinner, met /resetcount",
+      "default": true
+    },
+    "bestandsboom": {
+      "type": "boolean",
+      "title": "Bestandsboom",
+      "description": "Zijpaneel met de projectbestanden (gelezen/bewerkt gekleurd)",
+      "default": true
+    },
+    "diffpaneel": {
+      "type": "boolean",
+      "title": "Diff-paneel",
+      "description": "Gewijzigde bestanden met diff, accepteren of terugdraaien",
+      "default": true
+    },
+    "bewaker": {
+      "type": "boolean",
+      "title": "Veiligheidsbewaker",
+      "description": "Blokkeert riskante commando's en logt ze",
+      "default": true
+    },
+    "tijdlijn": {
+      "type": "boolean",
+      "title": "Agent-tijdlijn",
+      "description": "Paneel met een live tijdlijn van prompts, tools, subagents en modelbeurten",
+      "default": true
+    },
+    "statusbalk": {
+      "type": "boolean",
+      "title": "Statusbalk",
+      "description": "Balk boven de prompt met duur, bestanden, tool calls en context",
+      "default": true
+    }
+  }
+}
